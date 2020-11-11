@@ -14,6 +14,10 @@ const Header: React.FC = () => {
       <Item>
         <Link to="/jobs">jobs</Link>
       </Item>
+      |
+      <Item>
+        <Link to="/loginOrCreateUser">Login</Link>
+      </Item>
     </HeaderWrapper>
   );
 };
